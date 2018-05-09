@@ -1,0 +1,55 @@
+*, body {
+	padding: 0px;
+	margin: 0px;
+}
+
+#content-topo {
+	max-width: 1024px;
+	margin: 0 auto;
+	/*border: 1px solid blue;*/
+	margin-top: 18px;
+}
+
+header {
+	border: 1px solid black;
+	text-align: center;
+	height: 70px;
+}
+
+li {
+	list-style: none;
+	display: inline;
+}
+
+a {
+	text-decoration: none;
+}
+
+a.logo {
+	/*border: 1px solid red;*/
+	font-size: 30px;
+}
+
+.left-menu {
+	float: left;
+	/*border: 1px solid red;*/
+	margin-left: 160px;
+	font-size: 20px;
+	margin-top: 4px;
+}
+
+.left-menu li{
+	margin-right: 30px;
+}
+
+.right-menu {
+	float: right;
+	/*border: 1px solid red;*/
+	margin-right: 160px;
+	font-size: 20px;
+	margin-top: 4px;
+}
+
+.right-menu li {
+	margin-left: 30px;
+}
