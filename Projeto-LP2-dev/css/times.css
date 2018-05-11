@@ -1,0 +1,14 @@
+#tabclas {
+	text-align: center;
+}
+tr td {
+	border-bottom: 1px solid black;
+}
+
+thead tr {
+	border-bottom: 1px solid black;
+}
+.flamengo {
+	content: url("https://aimore.org/escudos/Flamengo.jpg");
+	max-width: 25px;
+}
