@@ -1,17 +1,31 @@
+@import url('https://fonts.googleapis.com/css?family=Libre+Baskerville');
+
 #tabclas{
 	text-align: center;
-	padding: 10px;
+	padding: 50px;
 	background-color: #C9DFF2;
 	border-collapse: collapse;
+	font-family: 'Libre Baskerville', serif;
+	color: #1E3859
+}
+
+#title {
+	text-align: center;
+	background-color: #C9DFF2;
+	font-weight: bold;
+	font-size: 18pt;
+	padding: 20px
 }
 
 th {
 	padding: 10px;
 	background-color: white;
+	font-size: 10pt;
+	color: #5095BF;
 }
 
  tr {
- 	border: 1px solid white;
+ 	border: 1px solid #C9DFF2;
  	padding: 10px;
  }
 
@@ -55,7 +69,7 @@ th {
 
 .fluminense {
 	content: url("https://logodownload.org/wp-content/uploads/2016/09/fluminense-logo-escudo.png");
-	max-width: 25px;
+	max-width: 30px;
 }
 
 .sport {
