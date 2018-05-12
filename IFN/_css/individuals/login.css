@@ -1,0 +1,67 @@
+/*serve pra arrumar os bugs do elemento sair pra fora da div*/
+.clear {
+	clear: both;
+}
+
+/*box que envolve o formulario*/
+#box-login {
+	max-width: 350px;
+	height: 450px;
+	border: 1px solid black;
+}
+
+/*header*/
+#topo-login {
+	text-align: center;
+	padding: 20px;
+	border-bottom: 1px solid black;
+}
+
+/*body*/
+#body-login {
+	padding: 50px 20px;
+}
+
+/*footer*/
+#rodape-login {
+	padding: 20px;
+}
+
+/*classe que agrupa os elementos*/
+.box {
+	margin-bottom: 20px;
+	/*border: 1px solid red;*/
+}
+
+/*faz os inputs ficarem um embaixo do outro*/
+input {
+	display: block;
+}
+
+#email, #senha {
+	box-sizing: border-box;
+	height: 20px;
+	width: 100%;
+	padding: 0 5px;
+}
+
+#btn-entrar {
+	padding: 10px 30px;
+	float: right;
+}
+
+#manter-conectado {
+	display: inline-block;
+}
+
+#esqueceu-senha {
+	display: block;
+}
+
+#cadastrar {
+	font-size: 12px;
+}
+
+#topo-login {
+	font-size: 20px;
+}
