@@ -8,33 +8,35 @@
 </head>
 <body>
 
-	<article id="box-login">
+	<form id="box-login">
 		<header id="topo-login">
 			<h2>IFN</h2>
 		</header>
 		<section id="body-login">
 			<div class="box">
-				<h3>E-mail</h3>
-				<input autocomplete="off" id="email" type="email" name=""> <!-- autocomplete = "off" nao deixa o navegador completar dados -->
+				<label for="email">E-mail</label>
+				<input autocomplete="off" id="email" type="email"> <!-- autocomplete = "off" nao deixa o navegador completar dados -->
 			</div>
 			<div class="box">
-				<h3>Senha</h3>
-				<input autocomplete="off" id="senha" type="password" name="">
+				<label for="senha">Senha</label>
+				<input autocomplete="off" id="senha" type="password">
 			</div>
 			<div class="box">
-				<input id="manter-conectado" type="checkbox" name="">
-				<span>Manter conectado</span>
+				<input id="manter-conectado" type="checkbox" checked="on">
+				<label for="manter-conectado">Manter conectado</label>
 			</div>			
 			<a id="esqueceu-senha" href="#">Esqueceu sua senha?</a>
 		</section>
 		<footer id="rodape-login">
 			<div class="box">
-				<a  id="cadastrar" href="#">Não possui uma conta? CADASTRE-SE</a>
-				<button id="btn-entrar">Entrar</button>
+				<a id="cadastrar" href="#">Não possui uma conta? CADASTRE-SE</a>
+				<button type="submit" id="btn-entrar">Entrar</button>
 				<div class="clear"></div> <!-- da um clear pro botao nao sair da div -->
 			</div>
+			<div class="clear"></div>
 		</footer>
-	</article>
+
+	</form>
 
 </body>
 </html>
