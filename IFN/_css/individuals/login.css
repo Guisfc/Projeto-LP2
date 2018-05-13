@@ -6,7 +6,7 @@
 /*box que envolve o formulario*/
 #box-login {
 	max-width: 350px;
-	height: 450px;
+	min-height: 450px;
 	border: 1px solid black;
 }
 
@@ -24,7 +24,7 @@
 
 /*footer*/
 #rodape-login {
-	padding: 20px;
+	padding: 20px 20px 0 20px;
 }
 
 /*classe que agrupa os elementos*/
@@ -33,14 +33,11 @@
 	/*border: 1px solid red;*/
 }
 
-/*faz os inputs ficarem um embaixo do outro*/
-input {
-	display: block;
-}
-
 #email, #senha {
+	margin-top: 5px;
+	font-size: 15px;
 	box-sizing: border-box;
-	height: 20px;
+	height: 22px;
 	width: 100%;
 	padding: 0 5px;
 }
@@ -54,14 +51,14 @@ input {
 	display: inline-block;
 }
 
-#esqueceu-senha {
-	display: block;
-}
-
 #cadastrar {
 	font-size: 12px;
 }
 
 #topo-login {
 	font-size: 20px;
+}
+
+label[for=email], label[for=senha] {
+	font-weight: bold;
 }
