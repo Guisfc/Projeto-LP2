@@ -1,12 +1,10 @@
-@import url('https://fonts.googleapis.com/css?family=Libre+Baskerville');
-
-#tabclas{
+#tabclas {
 	text-align: center;
 	padding: 50px;
 	background-color: #C9DFF2;
 	border-collapse: collapse;
-	font-family: 'Libre Baskerville', serif;
-	color: #1E3859
+	color: #1E3859;
+	width: 100%;
 }
 
 #title {
@@ -14,13 +12,13 @@
 	background-color: #C9DFF2;
 	font-weight: bold;
 	font-size: 18pt;
-	padding: 20px
+	padding: 20px;
 }
 
 th {
 	padding: 10px;
 	background-color: white;
-	font-size: 10pt;
+	font-size: 9pt;
 	color: #5095BF;
 }
 
