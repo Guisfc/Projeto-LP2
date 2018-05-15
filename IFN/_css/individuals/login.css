@@ -5,16 +5,27 @@
 
 /*box que envolve o formulario*/
 #box-login {
+	position: absolute;
+	top: 25%;
+	left: 50%;
+	background-color: #efefef;
 	max-width: 350px;
 	min-height: 450px;
-	border: 1px solid black;
+	transform: translate(-50%);
+	/*border: 1px solid black;*/
+	border-radius: 1%;
+	-webkit-box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.75);
+	box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.75);
 }
 
 /*header*/
 #topo-login {
+	color: #fff;
 	text-align: center;
 	padding: 20px;
-	border-bottom: 1px solid black;
+	/*border-bottom: 1px solid black;*/
+	background-color: #3C74A6;
 }
 
 /*body*/
@@ -33,18 +44,38 @@
 	/*border: 1px solid red;*/
 }
 
+.box-flex {
+	display: flex;
+	/*justify-content: space-around;*/
+	align-items: center;
+	margin-bottom: 20px;
+	/*border: 1px solid red;*/
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+a:link {
+	color: rgb(0, 0, 238);
+}
+
 #email, #senha {
 	margin-top: 5px;
 	font-size: 15px;
 	box-sizing: border-box;
-	height: 22px;
-	width: 100%;
 	padding: 0 5px;
 }
 
 #btn-entrar {
 	padding: 10px 30px;
 	float: right;
+	position: relative;
+	right: -10px;
 }
 
 #manter-conectado {
