@@ -1,5 +1,5 @@
-Extens„o pra dev:
+Extens√£o pra dev:
 https://chrome.google.com/webstore/detail/web-developer/bfbameneiokkgbdmiekhjnmfkcnldhhm
 
 Cores do site:
-https://color.adobe.com/pt/Color-Theme-1-color-theme-10719757/edit/?copy=true
+https://color.adobe.com/pt/Color-Theme-1-color-theme-10719757/edit/?copy=true&base=2&rule=Custom&selected=2&name=C%C3%B3pia%20de%20Color%20Theme%201&mode=rgb&rgbvalues=0.11764705882352941,0.2196078431372549,0.34901960784313724,0.23529411764705882,0.4549019607843137,0.6509803921568628,0.9372549019607843,0.9372549019607843,0.9372549019607843,0.3137254901960784,0.5843137254901961,0.7490196078431373,0.25098039215686274,0.25098039215686274,0.25098039215686274&swatchOrder=0,1,2,3,4
