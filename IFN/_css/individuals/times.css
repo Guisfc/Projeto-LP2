@@ -1,15 +1,18 @@
 #tabclas {
 	text-align: center;
 	padding: 50px;
-	background-color: #C9DFF2;
+	background-color: #efefef;
 	border-collapse: collapse;
 	color: #1E3859;
 	width: 100%;
 }
 
+
+
 #title {
+	text-shadow: 0px 1px 2px rgba(150, 150, 150, 1);
 	text-align: center;
-	background-color: #C9DFF2;
+	background-color: #efefef;
 	font-weight: bold;
 	font-size: 18pt;
 	padding: 20px;
@@ -19,11 +22,12 @@ th {
 	padding: 10px;
 	background-color: white;
 	font-size: 9pt;
-	color: #5095BF;
+	color: #1E3859;
+	opacity: 0.5;
 }
 
  tr {
- 	border: 1px solid #C9DFF2;
+ 	border: 1px solid #efefef;
  	padding: 10px;
  }
 
