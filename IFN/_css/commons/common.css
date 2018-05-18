@@ -4,6 +4,7 @@
 *, body {
 	padding: 0;
 	margin: 0;
+	height: 100%;
 	/*opcoes de fonte*/
 	font-family: 'Lato', sans-serif;
 	/*font-family: 'Roboto', sans-serif;*/
@@ -37,4 +38,8 @@ input[type=email], input[type=password] {
 
 input[type=checkbox] {
 	transform: scale(1.1);
+}
+
+.clear {
+	clear: both;
 }

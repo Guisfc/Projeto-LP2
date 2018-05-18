@@ -1,8 +1,3 @@
-/*serve pra arrumar os bugs do elemento sair pra fora da div*/
-.clear {
-	clear: both;
-}
-
 /*box que envolve o formulario*/
 #box-login {
 	position: absolute;

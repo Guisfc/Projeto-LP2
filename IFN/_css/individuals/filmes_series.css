@@ -1,0 +1,65 @@
+#content {
+	display: flex;
+	width: 50%;
+	flex-wrap: wrap;
+	margin: 0 auto;
+	padding: 5px;
+	height: auto;
+	flex-direction: row;
+	justify-content: center;
+	align-content: flex-start;
+	border: 1px solid red;
+	min-width: 245px;
+}
+
+.capa {
+	margin: 5px;
+	height: 340px;
+	width: 245px;
+	overflow: hidden;
+	background-position: center center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 1%;
+}
+
+.capa img {
+	width: 100%;
+	transition: 0.3s;
+	position: relative;
+}
+
+.capa img:hover {
+	transform: scale(1.05);
+	filter: blur(0.5px);
+	cursor: pointer;
+}
+
+#menu-sinopse {
+	position: fixed;
+	visibility: visible; /*em desenvolvimento*/
+	border-radius: 1%;
+	align-content: center;
+	flex-direction: column;
+	padding: 50px 20px;
+	transform: translateY(-50%);
+	/*position: absolute;*/
+	top: 50%;
+	display: flex;
+	height: auto;
+	width: 40%;
+	background-color: black;
+	color: white;
+}
+
+#titulo-sinopse {
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+#fechar-sinopse {
+	margin-top: -30px;
+	display: flex;
+	flex-direction: row-reverse;
+}

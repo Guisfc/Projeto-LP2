@@ -5,10 +5,6 @@
 	/*border: 1px solid red;*/
 }
 
-.clear {
-	clear: both;
-}
-
 section#corpo {
 	position: relative;
 	width: 600px;
