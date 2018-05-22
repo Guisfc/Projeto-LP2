@@ -1,14 +1,15 @@
 #content {
 	display: flex;
-	width: 50%;
+	max-width: 50%;
 	flex-wrap: wrap;
 	margin: 0 auto;
 	padding: 5px;
 	height: auto;
 	flex-direction: row;
 	justify-content: center;
+	flex
 	align-content: flex-start;
-	border: 1px solid red;
+	/*border: 1px solid red;*/
 	min-width: 245px;
 }
 
@@ -32,19 +33,17 @@
 
 .capa img:hover {
 	transform: scale(1.05);
-	filter: blur(0.5px);
+	/*filter: blur(0.5px);*/
 	cursor: pointer;
 }
 
 #menu-sinopse {
 	position: fixed;
-	visibility: visible; /*em desenvolvimento*/
 	border-radius: 1%;
 	align-content: center;
 	flex-direction: column;
 	padding: 50px 20px;
 	transform: translateY(-50%);
-	/*position: absolute;*/
 	top: 50%;
 	display: flex;
 	height: auto;
@@ -53,13 +52,28 @@
 	color: white;
 }
 
+#menu-sinopse {
+	display: none;
+}
+
 #titulo-sinopse {
 	text-align: center;
+	padding-bottom: 10px;
 	margin-bottom: 10px;
+	border-bottom: 1px solid #171717;
 }
 
 #fechar-sinopse {
-	margin-top: -30px;
+	margin-left: auto;
 	display: flex;
-	flex-direction: row-reverse;
+	justify-content: center;
+	margin-top: -30px;
+	/*border: 1px solid red;*/
+	width: 10px;
+	padding: 5px;
+	cursor: pointer;
+}
+
+.capa h2, .capa p {
+	display: none;
 }
