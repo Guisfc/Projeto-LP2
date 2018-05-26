@@ -1,13 +1,15 @@
+body {
+	background-color: #dedede;
+}
 #content {
 	display: flex;
 	max-width: 50%;
 	flex-wrap: wrap;
-	margin: 0 auto;
+	margin: auto auto;
 	padding: 5px;
 	height: auto;
 	flex-direction: row;
 	justify-content: center;
-	flex
 	align-content: flex-start;
 	/*border: 1px solid red;*/
 	min-width: 245px;

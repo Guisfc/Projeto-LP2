@@ -1,12 +1,23 @@
 /*box que envolve o formulario*/
-#box-login {
+body {
+	background-color: #efefef;
+}
+
+#content {
 	position: absolute;
-	top: 25%;
-	left: 50%;
+	width: 100%;
+	height: calc(100% - 70px);
+	align-items: center;
+	border: 1px solid red;
+	display: flex;
+	justify-content: center;
+
+}
+
+#box-login {
 	background-color: #efefef;
 	max-width: 350px;
-	min-height: 450px;
-	transform: translate(-50%);
+	max-height: 450px;
 	/*border: 1px solid black;*/
 	border-radius: 1%;
 	-webkit-box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.75);
@@ -47,15 +58,16 @@
 	/*border: 1px solid red;*/
 }
 
-a {
+#box-login a {
+	color: #3C74A6;
 	text-decoration: none;
 }
 
-a:hover {
+#box-login a:hover {
 	text-decoration: underline;
 }
 
-a:link {
+#box-login a:link {
 	color: rgb(0, 0, 238);
 }
 
