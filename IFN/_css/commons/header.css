@@ -79,6 +79,16 @@ header#main-header {
 	background-color: #5095BF;
 }
 
+#voltar-topo {
+	background-color: #1E3859;
+	position: fixed;
+	bottom: 40px;
+	right: 40px;
+	color: #E7E7E7;
+	border-radius: 50%;
+	padding: 10px 20px;
+}
+
 @media only screen and (max-width: 1149px) {
 
 	#main-header a:hover {
@@ -112,6 +122,8 @@ header#main-header {
 		text-align: center;
 	}
 
-
+	#voltar-topo {
+		display: none;
+	}
 
 }
