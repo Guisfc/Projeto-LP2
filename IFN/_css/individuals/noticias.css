@@ -37,6 +37,7 @@
 	border-left: .3px solid #5095BF;*/
 	justify-content: space-around;
 	background-color: white;
+	min-width: 400px;
 }
 
 .text {
@@ -44,6 +45,7 @@
 	display: flex;
 	align-items: stretch;
 	flex-flow: column;
+	flex-direction: column;
 
 }
 
