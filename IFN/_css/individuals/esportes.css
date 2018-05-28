@@ -43,6 +43,7 @@ iframe#frame-sports {
 .div-noticia img{
 	transform: scale(0.8);
 	transition: .4s;
+	margin-top: 180px; 
 }
 
 .div-noticia:hover img{
@@ -57,5 +58,24 @@ iframe#frame-sports {
 	bottom: 10px;
 	margin: 10px;
 	text-shadow: 1px 1px black;
+}
+
+#principal-title h1{
+	text-align: center;
+	font-size: 30pt;
+	color: #1E3859;
+	text-shadow: 1px 1px black;
+	/*background-color: white;*/
+	width: 60%;
+	padding-top: 20px;
+	padding-bottom: 30px; 
+}
+
+#principal-title {
+	
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-flow: column;
 }
 
