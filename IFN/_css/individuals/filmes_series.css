@@ -20,7 +20,7 @@ body {
 	height: 340px;
 	width: 245px;
 	overflow: hidden;
-	background-position: center center;
+	background-position: left top;
 	display: flex;
 	justify-content: center;
 	align-items: center;
