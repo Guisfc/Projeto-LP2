@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>IFN Entretenimento</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="_css/individuals/entretenimento.css">
+	<link rel="stylesheet" type="text/css" href="_css/commons/header.css">
+	<link rel="stylesheet" type="text/css" href="_css/commons/common.css">
+	<script type="text/javascript" src="_javascript/entretenimento.js"></script>
+</head>
+<body onload="showDivs(0)">
+
+	<!-- inicio do header ############################################################ -->
+	<header id="main-header">
+		<div id="main-header-content">
+			<ul class="menu">
+				<li><a href="#">Notícias</a>
+					<div class="sub-menu">
+						<ul >
+							<a href="#"><li>No Brasil</li></a>
+							<a href="#"><li>No Mundo</li></a>
+						</ul>
+					</div>
+				</li>
+				<li><a href="esportes.html">Esportes</a></li>
+				<li><a href="#">Entretenimento</a></li>
+			</ul>
+			<a href="#" class="logo"><h1>IFN</h1></a>
+			<ul class="menu">
+				<li><a href="filmes_series.html">Filmes & Séries</a></li>
+				<li><a href="#">Contato</a></li>
+				<li><a href="login.html">Entrar</a></li>
+			</ul>
+		</div>
+	</header>
+	<a href="#main-header" id="voltar-topo"><i class="fas fa-angle-double-up fa-3x"></i></a>
+	<!-- fim do header ############################################################### -->
+
+	<!-- SLIDESHOW -->
+	<h1 id="titulo">ENTRETENIMENTO</h1>
+	<section class="slider">
+		<i class="fa fa-angle-left fa-3x b" onclick="plusDivs(-1)"></i>
+		<div class="slide">
+			<div class="image">
+				<a href="https://revistaglamour.globo.com/Celebridades/noticia/2018/05/munik-nunes-posta-foto-na-piscina-e-comenta-hoje-e-dia-de-se-jogar.html">
+					<img src="https://s2.glbimg.com/h6_h-vrNbAh-aJXfvArH_vNw9Yg=/607x607/smart/e.glbimg.com/og/ed/f/original/2018/05/26/32930682_232020804047558_6885400971459952640_n_e1HEjt8.jpg">
+					<span>
+						<h1>'DIA DE SE JOGAR'</h1>
+						<P>Ex-BBB publica clique de maiô na piscina</P>
+					</span>
+				</a>			
+			</div>
+			<div class="image">
+				<a href="https://extra.globo.com/famosos/bianca-bin-sergio-guize-aparecem-aos-beijos-pela-primeira-vez-22720913.html">
+					<img src="https://extra.globo.com/incoming/22720912-9e9-f78/w448h673-PROP/xbin.jpg.pagespeed.ic.VC6YiogQxJ.jpg">
+					<span>
+						<h1>CENÁRIO ROMÂNTICO EM LISBOA</h1>
+						<P>Bin e Guizé aparecem aos beijos pela 1&#170; vez</P>
+					</span>
+				</a>
+			</div>
+		</div>
+
+		<div class="slide">
+			<div class="image">
+				<a href="https://revistaquem.globo.com/QUEM-News/noticia/2018/05/blogueira-thassia-naves-e-pedida-em-casamento-mil-vezes-sim.html">
+					<img src="http://s2.glbimg.com/sInsNJpSBSZKgTBN2F9gsHvmpT4=/e.glbimg.com/og/ed/f/original/2018/01/12/thassia.jpg">
+					<span>
+						<h1>BLOGUEIRA DIZ: 'MIL VEZES SIM'<br></h1>
+						<P>Thássia Naves fica noiva de agrônomo</P>
+					</span>
+				</a>			
+			</div>
+			<div class="image">
+				<a href="https://revistaglamour.globo.com/Beleza/Pele/noticia/2018/04/tattoo-10-perfis-de-tatuadores-para-seguir-no-insta-e-se-inspirar.html">
+					<img src="https://s2.glbimg.com/eIvKtYX3FWw5Sf7_OEdF_KLw8OQ=/607x607/smart/e.glbimg.com/og/ed/f/original/2018/04/17/rihanna-tattoo.jpg">
+					<span>
+						<h1>TATTOO<br></h1>
+						<P>10 perfis de tatuadores para seguir no Insta</P>
+					</span>
+				</a>
+			</div>
+		</div>
+		
+		<i class="fa fa-angle-right fa-3x b" onclick="plusDivs(-1)"></i>
+	</div>
+	<div>
+	</section>
+	<div id="currentButton">
+		<i class="fas fa-circle b unique" onclick="currentDiv(2)"></i>
+ 		<i class="far fa-circle b unique" onclick="currentDiv(1)"></i>
+ 	</div>
+
+ 	<!-- NOTÍCIAS -->
+ 	<div class="sub">
+ 	<article id="article">
+		<h2 class="subtitle">MODA &#38; BELEZA</h2>
+		<section class="section">
+			<div class="div-fashion">
+				<div class="fashion-photo">
+					<a href="https://revistaglamour.globo.com/Moda/Tendencias/noticia/2018/05/por-que-o-macacao-e-uma-peca-essencial-para-o-inverno-2018.html">
+					<img src="https://s2.glbimg.com/wxLdMhxB2pc0RxtUaV5wKkX9WGU=/607x426/smart/e.glbimg.com/og/ed/f/original/2018/05/24/new_york_str_b1_rf18_0899.jpg">			
+				</div>
+				<span class="synopsis">
+					<h4>Aprenda a combinar sapatos e acessórios com macacão</h4>
+				</span></a>
+			</div>
+			<div class="div-fashion">
+				<div class="fashion-photo">
+					<a href="https://revistamarieclaire.globo.com/Casamento/noticia/2018/05/6-erros-de-make-que-noivas-cometem.html">
+					<img src="https://s2.glbimg.com/u2j5Izj9H7___2o67FxcEv82-Es=/e.glbimg.com/og/ed/f/original/2018/05/25/maquiagem-noiva.jpg">
+				</div>
+				<span class="synopsis">
+					<h4>Vai casar? 6 erros de make que as noivas cometem</h4>
+				</span></a>
+			</div>
+			<div class="div-fashion">
+				<div class="fashion-photo">
+					<a href="https://oglobo.globo.com/ela/beleza/pele-negra-dermatologista-da-sete-dicas-de-cuidados-22709018">
+					<img src="https://ogimg.infoglobo.com.br/in/22709025-df9-15e/FT1086A/420/x76528995_El-pintando-o-7.-pele-negra.jpg.pagespeed.ic.kWR6CthMdg.jpg">			
+				</div>
+				<span class="synopsis">
+					<h4>Dermato dá 7 dicas para deixar a pele negra sempre perfeita</h4>
+				</span></a>
+			</div>
+			<div class="div-fashion">
+				<div class="fashion-photo">
+					<a href="https://revistaglamour.globo.com/Beleza/Cabelo/noticia/2018/05/3-novas-cores-para-tingir-o-cabelo-no-inverno-2018.html">
+					<img src="https://s2.glbimg.com/IaqQaz3p3ywL1arNYvI7N9ILmak=/smart/e.glbimg.com/og/ed/f/original/2018/04/30/art_school_photography_luis_murphy.jpg">			
+				</div>
+				<span class="synopsis">
+					<h4>Coloristas apostam em cores de drinks no inverno</h4>
+				</span></a>
+			</div>
+		</section>
+		<h2 class="subtitle">BEM ESTAR &#38; SAÚDE</h2>
+		<section class="section">
+			<div class="div-fashion">
+				<div class="fashion-photo">
+					<a href="https://revistacrescer.globo.com/Gravidez/Vida-de-gravida/noticia/2018/05/seus-direitos-na-gravidez-e-no-pos-parto.html"><img src="https://s2.glbimg.com/65MF_nqW9FGowSfZ1_jeWn5yySI=/e.glbimg.com/og/ed/f/original/2018/04/27/gravidez-direitos-trabalho.jpg">			
+				</div>
+				<span class="synopsis">
+					<h4>Conheça seus direitos trabalhistas na gravidez e pós-parto</h4>
+				</span></a>
+			</div>
+			<div class="div-fashion">
+				<div class="fashion-photo">
+					<a href="https://globoesporte.globo.com/eu-atleta/nutricao/noticia/refrigerante-como-suplemento-em-praticas-esportivas-pode.ghtml">
+					<img src="https://s2.glbimg.com/E9VW3NmpYRHIj-mYiKezH28ir3U=/0x0:1482x1358/2316x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2018/X/D/anBjkfTkyx6BfVD45PLg/istock-105704278.jpg">
+				</div>
+				<span class="synopsis">
+					<h4>Refrigerante como suplemento? Nutri explica porque não</h4>
+				</span></a>
+			</div>
+			<div class="div-fashion">
+				<div class="fashion-photo">
+					<a href="https://revistaquem.globo.com/QUEM-Saude/noticia/2018/05/como-izabel-goulart-conquistou-seu-corpo-e-barriga-chapada-dieta-e-80-do-esforco.html">
+					<img src="https://pbs.twimg.com/media/DZhXvXEVMAAAotm.jpg">			
+				</div>
+				<span class="synopsis">
+					<h4>Personal de Izabel Goulart fala sobre dieta e mostra treino</h4>
+				</span></a>
+			</div>
+			<div class="div-fashion">
+				<div class="fashion-photo">
+					<a href="https://globoesporte.globo.com/eu-atleta/nutricao/noticia/refrigerante-como-suplemento-em-praticas-esportivas-pode.ghtml">
+					<img src="https://s2.glbimg.com/E9VW3NmpYRHIj-mYiKezH28ir3U=/0x0:1482x1358/2316x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2018/X/D/anBjkfTkyx6BfVD45PLg/istock-105704278.jpg">
+					</div>
+					<span class="synopsis">
+						<h4>Refrigerante como suplemento? Nutri explica porque não</h4>
+					</span></a>
+			</div>
+		</section>
+ 	</article>
+ 	</div>
+</body>
+</html>
