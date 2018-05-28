@@ -86,11 +86,22 @@ body {
 	background-color: #efefef;
 }
 
-#principal-title {
+#principal-title h1{
 	text-align: center;
 	font-size: 30pt;
-	margin-top: 30px;
-	margin-bottom: 30px;
 	color: #1E3859;
 	text-shadow: 1px 1px black;
+	/*background-color: white;*/
+	width: 60%;
+	padding-top: 20px;
+	padding-bottom: 30px; 
 }
+
+#principal-title {
+	
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-flow: column;
+}
+
