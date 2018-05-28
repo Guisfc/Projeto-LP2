@@ -4,17 +4,19 @@ body {
 }
 
 #content {
-	position: absolute;
-	width: 100%;
-	height: calc(100% - 70px);
-	align-items: center;
-	/*border: 1px solid red;*/
 	display: flex;
+	position: absolute;
+	flex-direction: column;
+	width: 100%;
+	height: calc(100% - 85px);
+	align-items: center;
 	justify-content: center;
+	/*border: 1px solid red;*/
 
 }
 
 #box-login {
+	position: absolute;
 	background-color: #efefef;
 	max-width: 350px;
 	max-height: 450px;

@@ -6,16 +6,20 @@ header#main-header {
 	/*position: fixed;*/
 	z-index: 9999;
 	margin-bottom: 10px;
+	-webkit-box-shadow: 0 3px 5px rgba(57, 63, 72, 0.3);
+  	-moz-box-shadow: 0 3px 5px rgba(57, 63, 72, 0.3);
+  	box-shadow: 0 3px 5px rgba(57, 63, 72, 0.3);
 }
 
 #main-header a {
-	color: white;
+	color: #D4D4D4;
 	font-weight: bold;
 	font-size: 16px;
 	padding-bottom: 22px;
 }
 
 #main-header a:hover {
+	color: white;
 	border-bottom: 3px solid white;
 }
 
@@ -50,6 +54,7 @@ header#main-header {
 
 #main-header a.logo, #main-header a.logo:hover {
 	padding: 0;
+	color: #fff;
 	text-decoration: none;
 	border: none;
 }
@@ -58,6 +63,9 @@ header#main-header {
 	width: 300px;
 	display: none;
 	padding-top: 25px;
+	-webkit-box-shadow: 0 3px 5px rgba(57, 63, 72, 0.3);
+  	-moz-box-shadow: 0 3px 5px rgba(57, 63, 72, 0.3);
+ 	box-shadow: 0 3px 5px rgba(57, 63, 72, 0.3);
 }
 
 .menu li .sub-menu {
@@ -80,13 +88,15 @@ header#main-header {
 }
 
 #voltar-topo {
-	background-color: #1E3859;
+	color: #404040;
 	position: fixed;
 	bottom: 40px;
+	z-index: 9999;
 	right: 40px;
-	color: #E7E7E7;
-	border-radius: 50%;
-	padding: 10px 20px;
+}
+
+#voltar-topo:active {
+	color: white;
 }
 
 @media only screen and (max-width: 1149px) {

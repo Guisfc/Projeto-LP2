@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Header</title>
+	<title>IFN | Contato</title>
 	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="_css/individuals/contato.css">
+	<link rel="stylesheet" type="text/css" href="_css/commons/common.css">
 	<link rel="stylesheet" type="text/css" href="_css/commons/header.css">
-
 </head>
 <body>
-
 	<!-- inicio do header ############################################################ -->
 	<header id="main-header">
 		<div id="main-header-content">
@@ -33,6 +33,29 @@
 	</header>
 	<a href="#main-header" id="voltar-topo"><i class="fas fa-arrow-alt-circle-up fa-3x"></i></a>
 <!-- fim do header ############################################################### -->
+
+	<div id="container">
+		<form id="contact-form">
+			<header id="contact-header">
+				<h2>Contato</h2>
+				<span>Possui alguma dúvida ou tem algo para nos contar? Envie-nos uma mensagem e responderemos assim que possível.</span>
+			</header>
+			<div id="contact-body">
+				<label>Nome*</label>
+				<input type="text" required>
+				<label>E-mail*</label>
+				<input type="email" required>
+				<label>Assunto*</label>
+				<input type="text" required>
+				<label>Mensagem*</label>
+				<textarea id="text-area" form="contact-form" placeholder="Digite a mensagem aqui..." required></textarea>
+			</div>
+			<footer id="contact-footer">
+				<button class="button" id="bt-enviar-mensagem">Enviar Mensagem</button>
+			</footer>
+			
+		</form>
+	</div>
 
 </body>
 </html>
