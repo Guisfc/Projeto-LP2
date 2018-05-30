@@ -6,6 +6,8 @@ body {
 	/*border: 3px solid red;*/
 	margin-top: 40px;
 	display: flex;
+	justify-content: center;
+	flex-flow: column;
 	flex-direction: column;
 	margin-bottom: 20px;
 	/*width: auto;*/
