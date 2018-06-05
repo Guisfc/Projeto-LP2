@@ -1,0 +1,160 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	
+}
+
+#titulo {
+	text-align: center;
+	font-size: 30pt;
+	margin-top: 30px;
+	color: #1E3859;
+	text-shadow: 1px 1px black;
+}
+
+.slider {
+	display: flex;
+	justify-content: center;
+	margin-top: 30px;
+	align-items: center;
+	margin-bottom: 20px;
+}
+
+.slide {
+	height: 455px;
+	width: 820px;
+}
+
+.image img {
+	max-width: 458px;
+	transition: .4s;
+
+}
+
+.image img:hover {
+	transform: scale(1.05);
+}
+
+.image {
+	width: 458px;
+	height: 450px;
+	overflow: hidden;
+	margin: 3px;
+	border-radius: 1%;
+	position: relative;
+	box-shadow: 1px 1px 1px black;	
+}
+
+
+
+.image h1 {
+	position: absolute;
+	color: white;
+	text-shadow: 1px 1px black;
+	left: 20px;
+	top: 20px;
+	font-size: 12pt;
+	border-bottom: 3px solid #1E3859;
+	border-radius: 3%;
+	padding: 10px
+}
+
+.image p {
+	position: absolute;
+	color: white;
+	text-shadow: 2px 2px black;
+	left: 20px;
+	bottom: 20px;
+	font-size: 25pt;
+	text-align: justify;
+	right: 20px;
+}
+
+.b {
+	color: #1E3859;
+	text-shadow: 0.5px 0.5px black
+
+}
+
+#currentButton {
+	text-align: center;
+}
+
+.section {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 40px; 
+}
+
+.fashion-photo {
+	width: 200px;
+	height: 200px;
+	margin: 20px;
+	overflow: hidden;
+	border-radius: 2%;
+	display: flex;
+	align-items: baseline;
+	position: relative;
+}
+
+.fashion-photo img {
+	max-width: 100%;
+	max-height: auto;
+	transform: scale(1.7);
+	background-attachment: fixed;
+	position: absolute;
+	margin-top: 40px;
+
+}
+
+.fashion-photo:hover {
+	box-shadow: 1px 1px 1px #1E3859;
+}
+
+.synopsis h4 {
+	color: #1E3859;
+	font-size: 12pt;
+	font-weight: bold;
+	width: 150px;
+	text-decoration: none;
+}
+
+.div-fashion {
+	height: 250px;
+	width: 240px;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	border-top: 1px solid #1E3859;
+	margin-top: 10px;
+	padding-top: 10px;
+}
+
+#article {
+	display: flex;
+	flex-flow: column;
+	justify-content: center;
+	margin-top: 30px; 
+}
+
+h2.subtitle {
+	font-size: 16pt;
+	color: #1E3859;
+	text-align: justify;
+	top: 20px;
+	padding-top: 20px;
+	text-shadow: 1px 1px black;
+
+}
+
+.sub {
+	display: flex;
+	justify-content: center;
+	align-items: justify;
+}
+
+body {
+	background-color: #efefef;
+}
