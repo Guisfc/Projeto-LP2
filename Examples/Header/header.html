@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Header</title>
+	<meta charset="utf-8">
+	<style type="text/css">
+
+		* {
+			padding: 0;
+			margin: 0;
+		}
+
+		#main-header {
+			width: 100%;
+			border-bottom: 1px solid black;
+		}
+
+		#main-header-content {
+			/*border: 1px solid red;*/
+			width: 50%;
+			margin: 0 auto;
+			height: 74px;
+			display: flex;
+			flex-direction: row;
+			/*justify-content: space-between;*/
+			justify-content: space-around;
+			align-items: center;
+			flex-wrap: wrap;
+		}
+		
+		.menu {
+			flex-wrap: wrap;
+			align-items: center;
+			width: 40%;
+			/*border: 1px solid red;*/
+			display: flex;
+			flex-direction: row;
+			justify-content: space-between;
+			list-style: none;
+		}
+
+		.menu a {
+			/*border: 1px solid black;*/
+			text-decoration: none;
+			text-transform: uppercase;
+			padding: 28px 0px;
+			border-bottom: 2px solid blue;
+		}
+
+		.logo {
+			/*margin: 0 50px;*/
+			text-decoration: none;
+		}
+
+		.dropdown-content {
+			width: 200px;
+			display: none;
+			position: absolute;
+			z-index: 1;
+			margin-top: 28px;
+			border: 1px solid black;
+			padding-left: 10px;
+		}
+
+		.dropdown:hover .dropdown-content {
+			display: block;
+		}
+
+		.dropdown-content a {
+			border-bottom: none;
+			display: block;
+		}
+
+
+
+
+
+	</style>
+</head>
+<body>
+
+	<header id="main-header">
+		<div id="main-header-content">
+			<ul class="menu">
+				<li class="dropdown"><a href="#">Notícias</a>
+					<div class="dropdown-content">
+						<a href="#">no Brasil</a>
+						<a href="#">no Mundo</a>
+					</div></a>
+					
+				</li>
+				<li><a href="#">Esportes</a></li>
+				<li><a href="#">Entretenimento</a></li>
+			</ul>
+			<a href="#" class="logo"><h1>IFN</h1></a>
+			<ul class="menu">
+				<li><a href="#">Filmes & Séries</a></li>
+				<li><a href="#">Contato</a></li>
+				<li><a href="#">Entrar</a></li>
+			</ul>
+		</div>
+	</header>
+
+</body>
+</html>
